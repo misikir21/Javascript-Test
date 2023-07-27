@@ -10,7 +10,7 @@ describe('Calculator Test', () => {
   // Add method tests
   describe('Add method', () => {
     test('adds two positive numbers', () => {
-      expect(calculator.add(2, 3)).toBe(5);
+      expect(calculator.add(9, 3)).toBe(12);
     });
 
     test('adds two negative numbers', () => {
